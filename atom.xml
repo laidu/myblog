@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>睐笃大大&#39;s blog</title>
+  
+  <subtitle>OOXX</subtitle>
+  <link href="/myblog/atom.xml" rel="self"/>
+  
+  <link href="https://laidu.github.io/"/>
+  <updated>2018-02-11T06:22:43.331Z</updated>
+  <id>https://laidu.github.io/</id>
+  
+  <author>
+    <name>laidu823@gamil.com</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://laidu.github.io/2018/02/11/remember/"/>
+    <id>https://laidu.github.io/2018/02/11/remember/</id>
+    <published>2018-02-11T06:22:43.331Z</published>
+    <updated>2018-02-11T06:22:43.331Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="remember"><a href="#remember" class="headerlink" title="remember"></a>remember</h1><ul><li>事件定时提醒</li><li>昨日／历史回顾</li><li>明日待做事情记录提醒</li><li><strong>记忆曲线</strong> 根据记忆曲线定时回顾提醒</li><li>数据云同步</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;remember&quot;&gt;&lt;a href=&quot;#remember&quot; class=&quot;headerlink&quot; title=&quot;remember&quot;&gt;&lt;/a&gt;remember&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;事件定时提醒&lt;/li&gt;
+&lt;li&gt;昨日／历史回顾&lt;/li&gt;
+&lt;li&gt;明日待做事情记
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://laidu.github.io/2018/02/11/%E6%8E%A5%E5%8F%A3%E7%B1%BB%E7%88%AC%E8%99%ABrabbitmq%E4%BC%98%E5%8C%96/"/>
+    <id>https://laidu.github.io/2018/02/11/接口类爬虫rabbitmq优化/</id>
+    <published>2018-02-11T06:22:43.331Z</published>
+    <updated>2018-02-11T06:22:43.331Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="接口类爬虫rabbitmq优化"><a href="#接口类爬虫rabbitmq优化" class="headerlink" title="接口类爬虫rabbitmq优化"></a>接口类爬虫rabbitmq优化</h1><ul><li>1、使用非持久化队列</li><li>2、数据返回不通过rabbitmq</li><li>3、独立进程数据“统一获取，统一返回”</li><li>4、多头类爬虫稳定性，同一手机号多次请求返回结果</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;接口类爬虫rabbitmq优化&quot;&gt;&lt;a href=&quot;#接口类爬虫rabbitmq优化&quot; class=&quot;headerlink&quot; title=&quot;接口类爬虫rabbitmq优化&quot;&gt;&lt;/a&gt;接口类爬虫rabbitmq优化&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;1、使用非持久化队列&lt;/
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>TDD</title>
+    <link href="https://laidu.github.io/2017/12/22/TDD/"/>
+    <id>https://laidu.github.io/2017/12/22/TDD/</id>
+    <published>2017-12-22T08:12:05.000Z</published>
+    <updated>2018-02-11T06:22:43.327Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>crawler-summary</title>
+    <link href="https://laidu.github.io/2017/12/21/crawler-summary/"/>
+    <id>https://laidu.github.io/2017/12/21/crawler-summary/</id>
+    <published>2017-12-21T02:00:48.000Z</published>
+    <updated>2018-02-11T06:22:43.327Z</updated>
+    
+    <content type="html"><![CDATA[<p>#1.爬虫分类</p><ul><li><p>数据爬虫</p><ul><li>深度爬虫<ul><li>页面爬虫<ul><li>静态页面</li><li>动态页面</li></ul></li><li>接口类爬虫<ul><li>网站接口</li><li>app接口</li></ul></li></ul></li><li>垂直爬虫</li></ul></li><li><p>业务爬虫</p></li></ul><p>#2.爬虫问题</p><p>##2.1 目标</p><ul><li>断点续爬</li><li>分布式部署</li><li>监控报警<ul><li>服务进程</li><li>成功率</li><li>改版</li></ul></li><li>无缝发版</li><li>服务高可用</li><li>并发</li></ul><p>##2.2 爬虫中的问题</p><ul><li>数据包获取</li><li>封IP，请求次数限制</li><li>验证码限制</li><li>页面动态渲染</li><li>请求重定向</li><li>失败重爬</li><li>爬虫结果返回</li><li>cookies信息维护</li><li>单点登录</li><li>数据加密<ul><li>js 加密</li><li>app 加密<ul><li>apk加壳</li><li>native方法加密</li><li>自定义加密</li></ul></li></ul></li><li>系统陈旧、数据复杂。。。</li></ul><p>#3.解决方案</p><p>##3.1 工具</p><p>###3.1.1 抓包工具</p><ul><li>chrome dev-tool</li><li>burp site</li><li>charles</li></ul><p>###3.1.2 逆向工具</p><ul><li>apktool</li><li>enjarify</li><li>jd-gui/jadx-gui</li><li>android studio</li><li>ida</li><li>xposed</li></ul><p>##3.2开发组件</p><p>###3.2.1 基础框架 <a href="https://github.com/Geek-Union/alpha.git" rel="external nofollow noopener noreferrer" target="_blank">alpha</a></p><p>###3.2.2 爬虫框架 <a href="https://github.com/code4craft/webmagic" rel="external nofollow noopener noreferrer" target="_blank">webmagic</a></p><blockquote><p>WebMagic项目代码分为核心和扩展两部分。核心部分(webmagic-core)是一个精简的、模块化的爬虫实现，而扩展部分则包括一些便利的、实用性的功能。WebMagic的架构设计参照了Scrapy，目标是尽量的模块化，并体现爬虫的功能特点。<br>webmagic 总体架构:<br>  <img src="/myblog/2017/12/21/crawler-summary/webmagic.png" alt=""></p></blockquote><p>###3.2.3 消息组件 rabbitmq</p><ul><li>利用ack机制，确保消息被正确消耗，达到断点续爬</li><li>新旧爬虫监听同个队列确保服务的无缝发版</li><li>实现爬虫的分布式部署</li><li>使用定制的spring－rabbitmq模块实现接口类爬虫的rpc调用</li></ul><p>###3.2.4 服务注册 zookeeper</p><ul><li>服务注册中心，实现爬虫服务的注册与发现</li></ul><p>###3.2.5 缓存 redis</p><ul><li>缓存可用代理IP</li><li>缓存ip黑名单信息</li><li>同步zookeeper中爬虫服务节点信息，减少zookeeper压力</li><li>缓存爬虫配置信息</li></ul><p>###3.2.6 代理池维护</p><p>###3.2.7 nginx</p><blockquote><p>通过nginx的流量切换实现爬虫服务API层无缝发版</p></blockquote><p>##3.3第三方服务</p><p>###3.3.1 打码服务</p><ul><li><a href="https://github.com/tesseract-ocr" rel="external nofollow noopener noreferrer" target="_blank">tesseract-ocr</a>(开源)<blockquote><p>一款由HP实验室开发由Google维护的开源OCR（Optical Character Recognition , 光学字符识别）引擎，与Microsoft Office Document Imaging（MODI）相比，我们可以不断的训练的库，使图像转换文本的能力不断增强；如果团队深度需要，还可以以它为模板，开发出符合自身需求的OCR引擎。</p></blockquote></li><li><a href="http://www.chaojiying.com/" rel="external nofollow noopener noreferrer" target="_blank">超级鹰</a>（收费）</li></ul><p>###3.3.2 代理池服务</p><ul><li><a href="https://www.abuyun.com/" rel="external nofollow noopener noreferrer" target="_blank">阿布云</a>（单一代理IP）</li><li><a href="http://www.data5u.com/" rel="external nofollow noopener noreferrer" target="_blank">无忧</a>（返回代理IP列表）</li><li><a href="">adsl主机</a>（返回代理IP列表）</li></ul><p>##3.4 apk逆向</p><ul><li>抓包</li><li>smali动态调试</li><li>dump内存信息</li><li>hook String 构造函数</li><li>创建android httpServer 提供so加密服务</li></ul><p>#4.爬虫优化</p><p>##4.1 初次优化–爬虫框架异步优化，替换结果接口类爬虫结果汇总策略</p><ul><li>使用asyncHttpClient代替httpclient</li><li>引入rabbitmq的RPC，消除因服务器系统时间不一致而造成的爬虫结果汇总bug</li></ul><p>##4.2 再次优化–rabbitmq、日志优化、部署优化</p><ul><li>把爬虫服务按一定规则分组，减少对列和消费者数量</li><li>超时时间在小范围内随机，使rabbitmq消息结果返回更”均匀”</li><li>优化日志,调整队列大小、使用异步方式打印日志</li></ul><p>##4.3 第三次优化–服务接口优化</p><p>#5.爬虫监控</p><p>##5.1 服务器监控</p><blockquote><p>使用nagios监控</p><ul><li>服务进程</li><li>内存信息</li><li>磁盘占用情况</li></ul></blockquote><p>##5.2 日志分类</p><ul><li>nginx日志<ul><li>修改nginx日志打印格式为json</li></ul></li><li>程序日志<ul><li>API使用MDC加入请求uuid信息，</li><li>编写注解打印关键方法执行信息日志</li><li>普通日志</li></ul></li></ul><p>##5.3 ELK流程</p><blockquote><p>logstash -&gt; kafka -&gt; logstash -&gt; es(x=pack) -&gt; kinaba</p></blockquote><ul><li>日志监控报警</li><li>爬虫请求、成功率、图表展示</li></ul><p>#6.常用反爬策略</p><ul><li>Heaader<ul><li>User-Agent</li><li>Accept-Charset</li><li>Cookie</li><li>Content-Type</li><li>Referer</li></ul></li><li>Cookies验证</li><li>ip限制</li><li>验证码<ul><li>字符识别验证</li><li>简单四则运算</li><li>滑块验证</li></ul></li><li>常用数据加密算法<ul><li>Base64编码</li><li>MD5</li><li>AES</li><li>DES</li><li>DESede</li><li>RSA</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#1.爬虫分类&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;数据爬虫&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;深度爬虫&lt;ul&gt;
+&lt;li&gt;页面爬虫&lt;ul&gt;
+&lt;li&gt;静态页面&lt;/li&gt;
+&lt;li&gt;动态页面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;接口类爬虫&lt;ul&gt;
+&lt;li&gt;网站接口&lt;/li&gt;
+&lt;li&gt;a
+      
+    
+    </summary>
+    
+    
+      <category term="summary" scheme="https://laidu.github.io/tags/summary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Intellij_Idea配置</title>
+    <link href="https://laidu.github.io/2017/11/04/Intellij-Idea%E9%85%8D%E7%BD%AE/"/>
+    <id>https://laidu.github.io/2017/11/04/Intellij-Idea配置/</id>
+    <published>2017-11-04T07:38:34.000Z</published>
+    <updated>2018-02-11T06:22:43.327Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-基础配置"><a href="#1-基础配置" class="headerlink" title="1 基础配置"></a>1 基础配置</h2><h3 id="1-1-字体外观"><a href="#1-1-字体外观" class="headerlink" title="1.1 字体外观"></a>1.1 字体外观</h3><h3 id="1-2-代码智能提示"><a href="#1-2-代码智能提示" class="headerlink" title="1.2 代码智能提示"></a>1.2 代码智能提示</h3><h3 id="1-3-github-token生成"><a href="#1-3-github-token生成" class="headerlink" title="1.3 github token生成"></a>1.3 github token生成</h3><h3 id="1-4-自定义配置、VM配置"><a href="#1-4-自定义配置、VM配置" class="headerlink" title="1.4 自定义配置、VM配置"></a>1.4 自定义配置、VM配置</h3><h2 id="2-常用插件"><a href="#2-常用插件" class="headerlink" title="2 常用插件"></a>2 常用插件</h2><h3 id="2-1-lombok"><a href="#2-1-lombok" class="headerlink" title="2.1 lombok"></a>2.1 lombok</h3><h3 id="2-2-GsonFormat"><a href="#2-2-GsonFormat" class="headerlink" title="2.2 GsonFormat"></a>2.2 GsonFormat</h3><h3 id="2-3-Alibaba-Java-Coding-Guidelines"><a href="#2-3-Alibaba-Java-Coding-Guidelines" class="headerlink" title="2.3 Alibaba Java Coding Guidelines"></a>2.3 Alibaba Java Coding Guidelines</h3><h3 id="2-4-Grep-Console"><a href="#2-4-Grep-Console" class="headerlink" title="2.4 Grep Console"></a>2.4 Grep Console</h3><h3 id="2-5-CheckStyle-IDEA"><a href="#2-5-CheckStyle-IDEA" class="headerlink" title="2.5 CheckStyle-IDEA"></a>2.5 CheckStyle-IDEA</h3><h3 id="2-6-FindBugs-IDEA"><a href="#2-6-FindBugs-IDEA" class="headerlink" title="2.6 FindBugs-IDEA"></a>2.6 FindBugs-IDEA</h3><h3 id="2-7-Statistic"><a href="#2-7-Statistic" class="headerlink" title="2.7 Statistic"></a>2.7 Statistic</h3><h3 id="2-3-Jindent-Source-Code-Formatter"><a href="#2-3-Jindent-Source-Code-Formatter" class="headerlink" title="2.3 Jindent-Source Code Formatter"></a>2.3 Jindent-Source Code Formatter</h3><h3 id="2-3-CamelCase"><a href="#2-3-CamelCase" class="headerlink" title="2.3 CamelCase"></a>2.3 CamelCase</h3><h2 id="3-代码模版"><a href="#3-代码模版" class="headerlink" title="3 代码模版"></a>3 代码模版</h2><h3 id="3-1-code-template"><a href="#3-1-code-template" class="headerlink" title="3.1 code-template"></a>3.1 code-template</h3><h4 id="3-1-1-文件创建信息"><a href="#3-1-1-文件创建信息" class="headerlink" title="3.1.1 文件创建信息"></a>3.1.1 文件创建信息</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#if ($&#123;PACKAGE_NAME&#125; &amp;&amp; $&#123;PACKAGE_NAME&#125; != "")package $&#123;PACKAGE_NAME&#125;;#end</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * $&#123;DESCRIPTION&#125;</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * Created by tiancai.zang on $&#123;YEAR&#125;-$&#123;MONTH&#125;-$&#123;DAY&#125; $&#123;HOUR&#125;-$&#123;MINUTE&#125;.</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure><h4 id="3-1-2-常用注解"><a href="#3-1-2-常用注解" class="headerlink" title="3.1.2 常用注解"></a>3.1.2 常用注解</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">#if ($&#123;PACKAGE_NAME&#125; &amp;&amp; $&#123;PACKAGE_NAME&#125; != "")package $&#123;PACKAGE_NAME&#125;;#end</span><br><span class="line">#set($name=$&#123;NAME.toLowerCase()&#125;+$&#123;PACKAGE_NAME.toLowerCase()&#125;)</span><br><span class="line">#set($slf4j=$&#123;name.contains("controller")&#125; || $&#123;name.contains("impl")&#125; || $&#123;name.contains("util")&#125; || $&#123;name.contains("test")&#125;)</span><br><span class="line">#set($controller=$&#123;name.contains("controller")&#125;)</span><br><span class="line">#set($service=$&#123;name.contains("impl")&#125;)</span><br><span class="line">#set($data=$&#123;name.contains("dto")&#125; || $&#123;name.contains("entity")&#125; || $&#123;name.contains("model")&#125;)</span><br><span class="line">#set($test=$&#123;name.contains("test")&#125;)</span><br><span class="line"></span><br><span class="line">#if ($slf4j || !$data) import lombok.extern.slf4j.Slf4j;#end</span><br><span class="line">#if ($service) import org.springframework.stereotype.Service;#end</span><br><span class="line">#if ($controller)import org.springframework.web.bind.annotation.RestController;import org.springframework.web.bind.annotation.RequestMapping;#end</span><br><span class="line">#if ($data) import lombok.AllArgsConstructor;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;#end</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * $&#123;Description&#125;</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * Created by tiancai.zang on $&#123;YEAR&#125;-$&#123;MONTH&#125;-$&#123;DAY&#125; $&#123;HOUR&#125;:$&#123;MINUTE&#125;.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">#if ($slf4j || !$data) @Slf4j #end</span><br><span class="line">#if ($controller) @RestController@RequestMapping("/") #end</span><br><span class="line">#if ($service) @Service #end</span><br><span class="line">#if ($data) @Data@Builder@AllArgsConstructor@NoArgsConstructor #end</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> $</span>&#123;NAME&#125; &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="3-2-live-template"><a href="#3-2-live-template" class="headerlink" title="3.2 live-template"></a>3.2 live-template</h3><h4 id="3-2-1-日志打印"><a href="#3-2-1-日志打印" class="headerlink" title="3.2.1 日志打印"></a>3.2.1 日志打印</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">log.info(<span class="string">"$VAR_NAME_COPY$'s value : &#123;&#125;"</span>, $VAR_NAME$);</span><br></pre></td></tr></table></figure><blockquote><p>需要调整变量次序和默认值，因为在 “” 内输入变量名时，idea并不会有提示。</p></blockquote><p><img src="/myblog/2017/11/04/Intellij-Idea配置/log-live-template.png" alt=""></p><h4 id="3-2-2-注释"><a href="#3-2-2-注释" class="headerlink" title="3.2.2 注释"></a>3.2.2 注释</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * step $NUMBER$ : $DESCRIPTION$</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure><h2 id="4-常用快捷键"><a href="#4-常用快捷键" class="headerlink" title="4 常用快捷键"></a>4 常用快捷键</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;1-基础配置&quot;&gt;&lt;a href=&quot;#1-基础配置&quot; class=&quot;headerlink&quot; title=&quot;1 基础配置&quot;&gt;&lt;/a&gt;1 基础配置&lt;/h2&gt;&lt;h3 id=&quot;1-1-字体外观&quot;&gt;&lt;a href=&quot;#1-1-字体外观&quot; class=&quot;headerlink&quot; 
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
